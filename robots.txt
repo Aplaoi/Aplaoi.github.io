@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://aplaoi.github.io/sitemap.xml
