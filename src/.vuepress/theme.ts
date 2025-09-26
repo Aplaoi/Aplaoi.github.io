@@ -37,7 +37,7 @@ export default hopeTheme({
         medias: {
             Email: "mailto:aplaoi245@163.com",
             GitHub: "https://github.com/Aplaoi",
-            QQ: "1390473662",
+            QQ: "http://wpa.qq.com/msgrd?v=3&uin=1390473662&site=qq&menu=yes",
             Zhihu: "https://www.zhihu.com/people/apl-aurora",
         },
         avatar: "/assets/images/avatar.jpg"
