@@ -1,1 +1,10 @@
 // place your custom styles here
+
+.vp-blog-hero-info {
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    .vp-blog-hero-title {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}

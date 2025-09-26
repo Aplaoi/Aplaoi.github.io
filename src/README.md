@@ -1,6 +1,7 @@
 ---
 home: true
 #heroImage: logo.png
+bgImage: /assets/images/bg3.jpg
 layout: Blog
 icon: house
 title: 博客主页
@@ -37,3 +38,5 @@ tagline: Small steps in code, big gains in skill.
 #    link: https://你的自定义链接
 
 ---
+
+封面来自于 [Lifeline](https://www.pixiv.net/users/10885193)

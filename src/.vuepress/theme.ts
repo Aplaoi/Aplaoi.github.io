@@ -33,14 +33,14 @@ export default hopeTheme({
     // 博客相关
     blog: {
         description: "一个只会写点代码的体育废物",
-        intro: "/intro.html",
+        intro: "/about.html",
         medias: {
             Email: "mailto:aplaoi245@163.com",
             GitHub: "https://github.com/Aplaoi",
             QQ: "1390473662",
             Zhihu: "https://www.zhihu.com/people/apl-aurora",
         },
-        avatar: "/.vuepress/public/assets/images/avatar.jpg"
+        avatar: "/assets/images/avatar.jpg"
     },
 
     // 加密配置
@@ -69,12 +69,12 @@ export default hopeTheme({
         // component: true,
         demo: true,
         figure: true,
-        // gfm: true,
+        gfm: true,
         imgLazyload: true,
         imgSize: true,
         include: true,
         mark: true,
-        plantuml: true,
+        // plantuml: true,
         spoiler: true,
         stylize: [
             {
@@ -98,47 +98,19 @@ export default hopeTheme({
         math: {
             type: "katex",
         },
-
-        // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
-        // revealjs: {
-        //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-        // },
-
-        // 在启用之前安装 chart.js
-        // chartjs: true,
-
-        // insert component easily
-
-        // 在启用之前安装 echarts
-        // echarts: true,
-
-        // 在启用之前安装 flowchart.ts
-        // flowchart: true,
-
-        // 在启用之前安装 mermaid
-        // mermaid: true,
-
-        // playground: {
-        //   presets: ["ts", "vue"],
-        // },
-
-        // 在启用之前安装 @vue/repl
-        // vuePlayground: true,
-
-        // 在启用之前安装 sandpack-vue3
-        // sandpack: true,
     },
 
     // 在这里配置主题提供的插件
     plugins: {
         blog: {
             excerpt: true,
-            excerptSeparator: "//--",
+            excerptSeparator: "----",
             // excerptLength: 100,
         },
 
         copyright: {
-            disableCopy: true
+            disableCopy: true,
+            disableSelection: true,
         },
 
         slimsearch: {
