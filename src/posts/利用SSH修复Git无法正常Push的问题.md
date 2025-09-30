@@ -1,5 +1,5 @@
 ---
-category: 技术博客
+category: 博客
 tag: git
 ---
 

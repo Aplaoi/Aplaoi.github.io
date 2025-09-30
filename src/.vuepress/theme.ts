@@ -98,6 +98,10 @@ export default hopeTheme({
         math: {
             type: "katex",
         },
+
+        highlighter: {
+            type: "shiki",
+        }
     },
 
     // 在这里配置主题提供的插件
