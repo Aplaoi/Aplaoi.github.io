@@ -11,6 +11,10 @@ export default navbar([
         text: "复习资料",
         link: "/resources/",
         icon: "note-sticky"
+    }, {
+        text: "科研前沿",
+        link: "/science/",
+        icon: "flask",
     }
 
     // "/demo/",

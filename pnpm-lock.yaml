@@ -15,6 +15,9 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.24
         version: 2.0.0-rc.24(@types/node@24.5.2)(sass-embedded@1.93.2)(sass@1.93.2)
+      '@vuepress/plugin-copyright':
+        specifier: 2.0.0-rc.112
+        version: 2.0.0-rc.112(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.5.2)(sass-embedded@1.93.2)(sass@1.93.2))(vue@3.5.21))
       '@vuepress/plugin-slimsearch':
         specifier: 2.0.0-rc.112
         version: 2.0.0-rc.112(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.5.2)(sass-embedded@1.93.2)(sass@1.93.2))(vue@3.5.21))
@@ -27,6 +30,9 @@ importers:
       vuepress:
         specifier: 2.0.0-rc.24
         version: 2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.5.2)(sass-embedded@1.93.2)(sass@1.93.2))(vue@3.5.21)
+      vuepress-plugin-components:
+        specifier: 2.0.0-rc.94
+        version: 2.0.0-rc.94(sass-embedded@1.93.2)(sass@1.93.2)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.5.2)(sass-embedded@1.93.2)(sass@1.93.2))(vue@3.5.21))
       vuepress-theme-hope:
         specifier: 2.0.0-rc.94
         version: 2.0.0-rc.94(@vuepress/plugin-slimsearch@2.0.0-rc.112(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.5.2)(sass-embedded@1.93.2)(sass@1.93.2))(vue@3.5.21)))(katex@0.16.22)(markdown-it@14.1.0)(nodejs-jieba@0.3.0(encoding@0.1.13))(sass-embedded@1.93.2)(sass@1.93.2)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.5.2)(sass-embedded@1.93.2)(sass@1.93.2))(vue@3.5.21))

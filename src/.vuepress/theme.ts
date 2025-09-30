@@ -6,7 +6,7 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
     hostname: "https://aplaoi.github.io",
-
+    // hotReload: true,
     author: {
         name: "Aplaoi",
         url: "https://aplaoi.github.io",
@@ -109,12 +109,14 @@ export default hopeTheme({
         blog: {
             excerpt: true,
             excerptSeparator: "----",
+            filter: (page) => page && page.filePathRelative&&!(page.filePathRelative.startsWith("science/")),
             // excerptLength: 100,
         },
 
         copyright: {
+            global: true,
+            triggerLength: 50,
             disableCopy: true,
-            disableSelection: true,
         },
 
         slimsearch: {
@@ -128,7 +130,7 @@ export default hopeTheme({
         // },
 
         components: {
-            components: ["Badge", "VPCard"],
+            components: ["PDF",],
         },
 
         icon: {

@@ -1,6 +1,7 @@
 ---
 category: 博客
 tag: git
+star: true
 ---
 
 #  利用SSH修复Git无法正常Push的问题

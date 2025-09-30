@@ -7,7 +7,7 @@ tag:
 ---
 # NEMU随笔
 
-写一点我在做Nemu实验的时候的个人随笔和感悟，这个实验没有CSAPP的实验那么难，很多其实是比较好想到的，只是C语言可能不是很熟以及没有大型项目开发经历，导致很多操作很难想到。
+写一点我在做Nemu实验的时候的个人随笔和感悟，这个实验没有CSAPP的实验那么难，很多其实是比较好想到的，只是C语言可能不是很熟以及没有中大型项目开发经历，导致很多操作很难想到。
 
 ----
 
@@ -102,7 +102,7 @@ static int cmd_x(char *args) {
 
 ### 任务3
 
-这个任务会难一点，首先需要对正则表达式比较熟悉，参考[正则表达式教程]("https://www.runoob.com/regexp/regexp-metachar.html")。先按照格式补充正则表达式，如下
+这个任务会难一点，首先需要对正则表达式比较熟悉，参考[正则表达式教程](https://www.runoob.com/regexp/regexp-metachar.html)。先按照格式补充正则表达式，如下
 ```c
 // nemu/src/monitor/debug/expr.c
 rules[]={
@@ -240,7 +240,7 @@ static bool check_bracket(int p, int q) {
 }
 ```
 
-接下来问题是判断主要操作符，
+接下来问题是判断主要操作符，按照指导书写就行。这个我以后水课详细写一下（
 
 
 
