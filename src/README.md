@@ -4,7 +4,7 @@ home: true
 bgImage: /assets/images/bg3.jpg
 layout: Blog
 icon: house
-title: 博客主页
+title: 网站主页
 tagline: Small steps in code, big gains in skill.
 #projects:
 #  - icon: folder-open

@@ -1,5 +1,5 @@
 ---
-title: 科研资料
+title: 科研前沿
 icon: flask
 ---
 
