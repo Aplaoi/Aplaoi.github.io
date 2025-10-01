@@ -4,7 +4,7 @@ export default navbar([
     "/",
     {
         text: "技术博客",
-        icon: "book",
+        icon: "code",
         link: "/posts/",
     },
     {

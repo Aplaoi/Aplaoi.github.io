@@ -109,7 +109,7 @@ export default hopeTheme({
         blog: {
             excerpt: true,
             excerptSeparator: "----",
-            filter: (page) => page && page.filePathRelative&&!(page.filePathRelative.startsWith("science/")),
+            filter: (page) => page && page.filePathRelative && !(page.filePathRelative.startsWith("science/")) && !(page.filePathRelative.endsWith("/README.md")),
             // excerptLength: 100,
         },
 
