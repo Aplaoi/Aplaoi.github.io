@@ -1,5 +1,5 @@
 ---
-categories: 
+category: 
     - 组会
 tags: 
     - 科研

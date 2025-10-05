@@ -1,5 +1,5 @@
 ---
-categories: 博客
+category: 博客
 tags: 
     - markdown
     - vscode
