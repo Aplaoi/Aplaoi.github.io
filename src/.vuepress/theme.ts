@@ -116,7 +116,7 @@ export default hopeTheme({
         copyright: {
             global: true,
             triggerLength: 50,
-            disableCopy: true,
+            // disableCopy: true,
         },
 
         slimsearch: {
