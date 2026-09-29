@@ -113,12 +113,6 @@ export default hopeTheme({
             // excerptLength: 100,
         },
 
-        copyright: {
-            global: true,
-            triggerLength: 50,
-            // disableCopy: true,
-        },
-
         slimsearch: {
             indexContent: true,
         },
